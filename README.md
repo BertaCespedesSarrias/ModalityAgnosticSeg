@@ -85,5 +85,7 @@ Before this, make sure you have set all necessary variables in the config file.
 - CT_MRI_difflab_multihead.pth: Fine-tuned on 300 CT and 20 training MRI samples with two separate heads for CT and MRI.
 - CT_only.pth: Fine-tuned on single modality CT.
 
+[**Models and datasets available**](https://zenodo.org/records/14774520?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjZhZmQ1ZDY5LWFjZDItNDZlNy05ZTQxLTIzNWJiNTM0OTYwOSIsImRhdGEiOnt9LCJyYW5kb20iOiJiNjAyZTEwZWRkMjI1NDBiZmNkZjE5MTVmMTk4M2RmZCJ9.xZlhWZtOvgFlg2RLWJh9YNwMsTDZF5y4kkaNeWD0dZqYOoL49UVUAgm_a5WWcHCxw1HJgfYoaMVQ22Tk2MrT4Q)
+
 # Acknowledgements
 The framework has been cloned from Anatomix, and edited to include additional features. Anatomix's framework can be visited at: https://github.com/neel-dey/anatomix.
