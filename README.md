@@ -67,7 +67,7 @@ The variables work as follows:
 
 # Evaluation
 
-To evaluate the model, evaluate_model.py with the command:
+To evaluate the model, use evaluate_model.py with the command:
 ```
 python evaluate_model.py -c config.yaml
 ```
