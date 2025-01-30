@@ -78,12 +78,12 @@ Before this, make sure you have set all necessary variables in the config file.
 
 6 models are provided:
 
-- CT_MRI_difflab_fewshot.pth
-- CT_MRI_difflab_fewshot_scratch.pth
-- CT_MRI_difflab_partial_loss.pth
-- CT_MRI_difflab_partial_loss_scratch.pth
-- CT_MRI_difflab_multihead.pth
-- CT_only.pth
+- CT_MRI_difflab_fewshot.pth: Fine-tuned on 14 training samples using anatomix weights.
+- CT_MRI_difflab_fewshot_scratch.pth: Fine-tuned on 14 training samples without anatomix weights (from scratch).
+- CT_MRI_difflab_partial_loss.pth: Fine-tuned on 300 CT and 20 training MRI samples using anatomix weights.
+- CT_MRI_difflab_partial_loss_scratch.pth: Fine-tuned on 300 CT and 20 training MRI samples without anatomix weights.
+- CT_MRI_difflab_multihead.pth: Fine-tuned on 300 CT and 20 training MRI samples with two separate heads for CT and MRI.
+- CT_only.pth: Fine-tuned on single modality CT.
 
 # Acknowledgements
 The framework has been cloned from Anatomix, and edited to include additional features. Anatomix's framework can be visited at: https://github.com/neel-dey/anatomix.
