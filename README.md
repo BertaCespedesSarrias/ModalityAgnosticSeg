@@ -1,6 +1,6 @@
 # ModalityAgnosticSeg
 
-This project leverages Anatomix weights to fine-tune a UNet on cardiac datasets in single- and multi-modality settings. In the case of multi-modality there are two approaches used: partial-loss and multi-head prediction.
+This project leverages Anatomix (https://github.com/neel-dey/anatomix) weights to fine-tune a UNet on cardiac datasets in single- and multi-modality settings. In the case of multi-modality there are two approaches used: partial-loss and multi-head prediction.
 
 # Fine-tuning
 To fine-tune on a specific dataset, put training, validation and test images and labels in the following format:
