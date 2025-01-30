@@ -29,8 +29,8 @@ Once this is done, the model can be fine-tuned by calling the following command.
 **partial_loss**: Flag to use partial loss. Set to True if running with datasets with different number of labels. Note the code provided has been tailored to two datasets using 10 and 7 labels, CT and MRI respectively. If using other datasets revisit the label mapping in the partial loss class.
 
 
-**Fine-tuning with partial-loss:
-**
+**Fine-tuning with partial-loss:**
+
 ```
 python train_segmentation.py 
 --dataset ./dataset/ \
@@ -40,9 +40,10 @@ python train_segmentation.py
 --partial_loss True
 ```
 
-**Fine-tuning with multi-head model:
-**
+**Fine-tuning with multi-head model:**
+
 Note for this we need to set batch_size to 1.
+
 ```
 python train_segmentation.py 
 --dataset ./dataset/ \
