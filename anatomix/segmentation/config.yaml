@@ -1,0 +1,9 @@
+partial_loss: True
+test_images: "path/to/images"
+test_segs: "path/to/labels"
+output_dir: "path/to/output/dir"
+checkpoint_path: "path/to/model/"
+n_classes: 10 # Comment for multi-head
+# n_classes: # Uncomment for multi-head
+# - 10 # Uncomment for multi-head
+# - 7 # Uncomment for multi-head
