@@ -74,5 +74,16 @@ python evaluate_model.py -c config.yaml
 
 Before this, make sure you have set all necessary variables in the config file.
 
+**Provided models:**
+
+6 models are provided:
+
+- CT_MRI_difflab_fewshot.pth
+- CT_MRI_difflab_fewshot_scratch.pth
+- CT_MRI_difflab_partial_loss.pth
+- CT_MRI_difflab_partial_loss_scratch.pth
+- CT_MRI_difflab_multihead.pth
+- CT_only.pth
+
 # Acknowledgements
 The framework has been cloned from Anatomix, and edited to include additional features. Anatomix's framework can be visited at: https://github.com/neel-dey/anatomix.
